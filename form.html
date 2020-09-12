@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="icon" href="codding.jpg">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style type="text/css">
+
+	
+		#formdiv{
+			width: 400px;
+			height: 600px;
+			background-color: #54545454;
+			margin-top: 20px;
+			border-radius: 20px;
+			border:2px solid  #54545454;
+
+		}
+		.lab{
+
+
+			margin: 30px 0 0 20px;
+			height: 40px;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			letter-spacing: 2px;
+
+
+		}
+		.in{
+			margin-left: 16px;
+			margin-top: 50px;
+			height: 30px;
+			width: 200px;
+			border:none;
+			outline: none;
+			border-bottom-left-radius: 20px;
+			border-top-right-radius: 20px;
+			text-align: center;
+			font-size: 20px;
+
+		}
+		#sub{
+			float: right;
+			margin:20px 68px 0 0;
+			width: 150px;
+			height: 40px;
+			border: none;
+			font-weight: bold;
+			font-style: italic;
+			font-size: 20px;
+			border-bottom-left-radius: 20px;
+			border-top-right-radius: 20px;
+			outline: none;
+			color: #900;
+
+		}
+		.col-6 h1{
+			background-color: rgba(0,0,0,.1);
+			height: 200px;
+			width: 500px;
+			text-align: center;
+			padding:20px 0 0 0;
+			margin:200px 10px;
+			border-radius: 20px;
+
+		}
+		#p{
+			text-align: center;
+
+			margin-top: -17em;
+			width: 500px;
+		}
+	</style>
+</head>
+<body class="container">
+<div class="container">
+	<div>
+	
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"> <img src="codding.jpg" width="30" height="30" alt="" loading="lazy"> Codding</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto" style="margin-left: 20px" id="nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="Website.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Courses.html">Courses</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="form.html">Contact Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  </div>
+  <div class="row">
+  	<div class="col-6">
+  		<H1>Sign up Right Now!<hr></H1>
+  	
+  		<p id="p">Sign up your account now and enjoy free coding</p>
+  	</div>
+  	<div class="col-6 ">
+  		<form id="formdiv">
+		<label class="lab">YourEmail</label><input type="Email" name="Name" class="in" id="email" required=""><br>
+		<label class="lab">UserName</label><input type="text" name="Name" class="in" required=""><br>
+		<label class="lab">FullName</label><input type="text" name="Name"class="in"><br>
+		<label class="lab">Mobile#</label><input type="text" name="Mobile"class="in" style="margin-left: 30px"><br>
+
+		<label class="lab">Password</label>
+
+		<input type="Password" inputmode="numeric" minlength="4"  maxlength="8" name="Password"class="in" pattern="[0-9 a-zA-Z]{4,8}" id="pas" required=""><br>
+		<label class="lab">conform</label>
+<input type="Password" inputmode="numeric" minlength="4"  maxlength="8" name="Password"class="in" pattern="[0-9 a-zA-Z]{4,8}" id="cp" required=""><br>
+
+		<input type="submit" name="" id="sub">
+
+	</form>
+	
+  	</div>
+  	
+  </div>
+	
+</div>
+</body>
+</html>
